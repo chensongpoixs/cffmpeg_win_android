@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SongliHLCPlayer</string>
+    <string-array name="video_list">
+        <item>input.mp4</item>
+        <item>rtmp://live.hkstv.hk.lxdns.com/live/hks</item>
+        <item>rtmp://47.93.31.88:1935/live/songli</item>
+        <item>屠洪刚 - 你.mp4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{e4f476fe-de0b-4461-8005-80686b5ae2b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="songli_ffmpeg_sdl_player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdl_ffmpeg_test_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player\Audio.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\FrameQueue.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\main.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\Media.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\PacketQueue.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\Video.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="player\VideoDisplay.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="x264_faac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player\Audio.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\FrameQueue.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\Media.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\PacketQueue.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\Video.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="player\VideoDisplay.h">
+      <Filter>player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

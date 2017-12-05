@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1.yuv">
+      <UniqueIdentifier>{346f4d3c-10ab-4667-8e57-ad77cadcc15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ffmpeg">
+      <UniqueIdentifier>{238b0379-129d-4e37-94b5-6cd2f3e43f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{1050c79b-008d-4d21-a0fd-8c34e7acd79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCM">
+      <UniqueIdentifier>{79cd4896-5407-4b30-8958-7b4208300789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vedio_audio">
+      <UniqueIdentifier>{fa6e990d-dfc6-4ee1-9d97-0fdb0f0c55b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ffmpeg.h">
+      <Filter>1.yuv</Filter>
+    </ClInclude>
+    <ClInclude Include="vedio_audio\CycleBuffer.h">
+      <Filter>vedio_audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1.yuv\1.yuv.cpp">
+      <Filter>1.yuv</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\file_audio.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="simplest_ffmpeg_player.c">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL\test.c">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\songli_ffmpeg_decoder.cpp">
+      <Filter>ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL\songli_SDL_base.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL\songli_SDL_base_player.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg_text.cpp" />
+    <ClCompile Include="ffmpeg_text2.cpp" />
+    <ClCompile Include="PCM\songli_ffmpeg_pcm.cpp">
+      <Filter>PCM</Filter>
+    </ClCompile>
+    <ClCompile Include="PCM\pcm_mp3_player.cpp">
+      <Filter>PCM</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg_yuv_pcm.cpp" />
+    <ClCompile Include="vedio_audio\main.cpp">
+      <Filter>vedio_audio</Filter>
+    </ClCompile>
+    <ClCompile Include="vedio_audio\CCycleBuffer.cpp">
+      <Filter>vedio_audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

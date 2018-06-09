@@ -28,8 +28,8 @@ int main(int argv, char* argc[])
 	avformat_network_init();
 	SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO | SDL_INIT_TIMER);
 
-	//char* filename = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
-	char *filename = "rtsp://120.76.194.244:1935/vod/sample.mp4";
+	char* filename = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
+	//char *filename = "rtsp://120.76.194.244:1935/vod/sample.mp4";
 	//char* filename = "rtmp://47.93.31.88:1935/live/songli";
 	//init操作 创建 Audio 和 Video 对象
 	MediaState media(filename);

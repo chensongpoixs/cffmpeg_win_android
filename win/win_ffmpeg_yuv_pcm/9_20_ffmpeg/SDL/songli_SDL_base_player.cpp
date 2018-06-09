@@ -3,7 +3,7 @@
 
 extern "C"
 {
-#include "SDL.h"
+#include "SDL2/SDL.h"
 }
 
 const int bpp = 12;

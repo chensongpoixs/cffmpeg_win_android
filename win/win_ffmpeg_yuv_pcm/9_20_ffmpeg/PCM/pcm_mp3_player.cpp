@@ -11,7 +11,7 @@ extern "C"
 #include "libavcodec/avcodec.h"
 #include "libavformat/avformat.h"
 #include "libswresample/swresample.h"
-#include "SDL.h"
+#include "SDL2/SDL.h"
 };
 #else
 //Linux...

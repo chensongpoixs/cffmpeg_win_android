@@ -1,34 +1,20 @@
-﻿  songli_ffmpeg_decoder.cpp
-d:\homeworks\cc\ffmpeg\ffmpeg-3.3.3-win32-dev\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(46): warning C4018: “<”: 有符号/无符号不匹配
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(47): warning C4996: 'AVStream::codec': 被声明为已否决
-  d:\homeworks\cc\ffmpeg\ffmpeg-3.3.3-win32-dev\include\libavformat\avformat.h(893): note: 参见“AVStream::codec”的声明
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(56): warning C4996: 'AVStream::codec': 被声明为已否决
-  d:\homeworks\cc\ffmpeg\ffmpeg-3.3.3-win32-dev\include\libavformat\avformat.h(893): note: 参见“AVStream::codec”的声明
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(79): warning C4996: 'AVStream::codec': 被声明为已否决
-  d:\homeworks\cc\ffmpeg\ffmpeg-3.3.3-win32-dev\include\libavformat\avformat.h(893): note: 参见“AVStream::codec”的声明
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(72): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int64_t”
-  d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(72): note: 请考虑在格式字符串中使用“%lld”
-  d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(72): note: 请考虑在格式字符串中使用“%I64d”
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(74): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int64_t”
-  d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(74): note: 请考虑在格式字符串中使用“%lld”
-  d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(74): note: 请考虑在格式字符串中使用“%I64d”
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(97): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“double”
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(98): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int64_t”
-  d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(98): note: 请考虑在格式字符串中使用“%lld”
-  d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(98): note: 请考虑在格式字符串中使用“%I64d”
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(105): warning C4996: 'avpicture_get_size': 被声明为已否决
-  d:\homeworks\cc\ffmpeg\ffmpeg-3.3.3-win32-dev\include\libavcodec\avcodec.h(5561): note: 参见“avpicture_get_size”的声明
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(106): warning C4996: 'avpicture_fill': 被声明为已否决
-  d:\homeworks\cc\ffmpeg\ffmpeg-3.3.3-win32-dev\include\libavcodec\avcodec.h(5546): note: 参见“avpicture_fill”的声明
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(116): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(118): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(129): warning C4996: 'avcodec_decode_video2': 被声明为已否决
-  d:\homeworks\cc\ffmpeg\ffmpeg-3.3.3-win32-dev\include\libavcodec\avcodec.h(4901): note: 参见“avcodec_decode_video2”的声明
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(154): warning C4996: 'av_free_packet': 被声明为已否决
-  d:\homeworks\cc\ffmpeg\ffmpeg-3.3.3-win32-dev\include\libavcodec\avcodec.h(4558): note: 参见“av_free_packet”的声明
-d:\homeworks\cc\ffmpeg\9_20_ffmpeg\9_20_ffmpeg\ffmpeg\songli_ffmpeg_decoder.cpp(23): warning C4101: “y_size”: 未引用的局部变量
-  9_20_ffmpeg.vcxproj -> D:\homeworks\CC\ffmpeg\9_20_ffmpeg\Debug\9_20_ffmpeg.exe
-  9_20_ffmpeg.vcxproj -> D:\homeworks\CC\ffmpeg\9_20_ffmpeg\Debug\9_20_ffmpeg.pdb (Partial PDB)
+﻿  pcm_mp3_player.cpp
+d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(55): warning C4018: “>”: 有符号/无符号不匹配
+d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(104): warning C4018: “<”: 有符号/无符号不匹配
+d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(105): warning C4996: 'AVStream::codec': 被声明为已否决
+  d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\include\libavformat\avformat.h(893): note: 参见“AVStream::codec”的声明
+d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(116): warning C4996: 'AVStream::codec': 被声明为已否决
+  d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\include\libavformat\avformat.h(893): note: 参见“AVStream::codec”的声明
+d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(132): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int64_t”
+  d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(132): note: 请考虑在格式字符串中使用“%lld”
+  d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(132): note: 请考虑在格式字符串中使用“%I64d”
+d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(134): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int64_t”
+  d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(134): note: 请考虑在格式字符串中使用“%lld”
+  d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(134): note: 请考虑在格式字符串中使用“%I64d”
+d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(197): warning C4996: 'avcodec_decode_audio4': 被声明为已否决
+  d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\include\libavcodec\avcodec.h(4852): note: 参见“avcodec_decode_audio4”的声明
+d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\pcm\pcm_mp3_player.cpp(232): warning C4996: 'av_free_packet': 被声明为已否决
+  d:\homeworks\github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\9_20_ffmpeg\include\libavcodec\avcodec.h(4558): note: 参见“av_free_packet”的声明
+    正在创建库 D:\homeworks\Github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\Debug\9_20_ffmpeg.lib 和对象 D:\homeworks\Github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\Debug\9_20_ffmpeg.exp
+  9_20_ffmpeg.vcxproj -> D:\homeworks\Github\songli_ffmpeg_win_android\win\win_ffmpeg_yuv_pcm\Debug\9_20_ffmpeg.exe
